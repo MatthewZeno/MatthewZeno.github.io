@@ -26,13 +26,11 @@ nav a {
 .right-column{
     height: 40vh; 
     flex: 60%; 
-    background-image: url(images/friends.png) ;
-    /* background-image: url(images/selfie.png) ; */
-    /* background-image: url(Images/fun.png) ; */
     background-position: center;
     background-size: contain; 
     background-repeat: no-repeat;
 }
+
 
 .left-column{
     height: 40vh;
@@ -67,4 +65,17 @@ nav a {
     /* margin-left: auto;
     margin-right: auto; */
     width: 80%; 
+}
+
+#right-col-index{
+    background-image: url(Images/friends.png) ;
+}
+
+#right-col-about{
+    background-image: url(Images/fun.png) ; 
+}
+
+
+#right-col-members{
+    background-image: url(Images/selfie.png) ;
 }
