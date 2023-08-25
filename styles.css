@@ -1,0 +1,70 @@
+nav {
+    border-style: solid; 
+    border-width: 0.15em;
+    border-color: rgb(251,33,125);
+    border-radius: 2em;
+    padding: 1em; font-family: 'Concert One'; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6ems;
+    width: 80%;
+}
+
+nav a {
+    padding-left: 5em; 
+    color: rgb(251,33,125);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    display: flex; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-column{
+    height: 40vh; 
+    flex: 60%; 
+    background-image: url(images/friends.png) ;
+    /* background-image: url(images/selfie.png) ; */
+    /* background-image: url(Images/fun.png) ; */
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.left-column{
+    height: 40vh;
+    flex: 40%;
+}
+
+.main-heading{
+    font-family: 'Concert One', cursive;
+    font-size: 4em;
+    color: rgb(251,33,125);
+    padding-top: 1em;
+    
+}
+
+#content-area{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 6em;
+    width: 80%;
+    
+}
+
+#layout-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+}
+
+#password-area{
+    margin-top: 5em;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 80%; 
+}
